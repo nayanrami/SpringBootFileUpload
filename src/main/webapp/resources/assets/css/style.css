@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+	;
+
+* {
+	font-size: 0.9rem;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	background-color: #325288;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-text {
+	color: #fff;
+}
+
+.label {
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar-text {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.table-bordered {
+	border-color: #0275d8;
+}
+
+.nav-item {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.errormsg {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.validationmsg {
+	text-align: center;
+	display: inline-block;
+	color: red;
+}
+
+.labelitem {
+	text-align: center;
+	font-weight: bold;
+}
+
+.my-card {
+	position: absolute;
+	left: 40%;
+	top: -20px;
+	border-radius: 50%;
+}
+
+.navbar-dark {
+	background-color: #325288 !important;
+}
+
+.bg-primary {
+	background-color: #325288 !important;
+}
+
+.footertxt {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: 800;
+}
+
+th {
+	background-color: #325288 !important;
+	text-align: center;
+	color: #fff;
+}
+
+.studentdetails  tr   td {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.studentdetails  tr   th {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+ul>li {
+	list-style: none;
+}
+
+ul>li>a {
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+ul>li>a>span {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1.5em;
+	font-size: 1em;
+}
